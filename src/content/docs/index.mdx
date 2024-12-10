@@ -1,0 +1,32 @@
+---
+title: Welcome to NTi
+description: Getstrated building modern .NET / DB2 for i apps with NTi
+template: splash
+hero:
+  tagline: The high-performance and feature-rich .NET provider for IBM i. 
+  image:
+    file: ../../assets/nti.png
+  actions:
+    - text: Discover
+      link: /guides/dicover
+      icon: right-arrow
+      variant: primary
+    - text: About AUMERIAL
+      link: /guides/clients
+      icon: information
+---
+
+{/* https://github.com/withastro/starlight/blob/main/packages/starlight/components/Icons.ts */}
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## Quick access
+
+<CardGrid>
+	<Card title="Initial setup" icon="add-document">
+		We created a brand new, simple to manage, database server for IBM i. Run it once, and you're done. [See guide](guides/sysadmin).
+	</Card>
+	<Card title="Start building modern applications" icon="pencil">
+		Whether you're working in .NET Core, Node.js, or Python, we have a library for you. [See guides](guides/clients).
+	</Card>
+</CardGrid>
